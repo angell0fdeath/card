@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+.parfum-img{
+width: 300px;
+border: none;
+margin: 0;
+padding: 0;
+}
+#catigory{
+    margin-top: 15px;
+    color: rgb(92, 89, 89);
+    font-family: "Montserrat",serif;
+    margin-left: 30px;
+    padding: 15px;
+}
+.title{
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    margin-left: 30px;
+    padding: 15px;
+}
+.par-disc{
+    margin-top: 15px;
+    font-family: "Montserrat",serif;
+    font-size: 16px;
+    margin-left: 30px;
+    padding: 15px;
+    mar
+}
+.imag{
+    background-color: black;
+}
+.price{
+    margin-top: 20px;
+    text-align: center;
+}
+.new-price{
+    font-size: 30px;
+    margin-right: 20px;
+    color: rgb(31, 119, 31);
+    font-weight: bold;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.shop-cart{
+    margin-top: 20px;
+text-align: center;
+margin: 0 10px;
+}
+.shop{
+    text-align: center;
+    background-color: rgb(31, 119, 31);
+    padding: 5px 70px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+    height: 35px;
+    transition: 0.4s;
+}
+.shop-png{
+    margin-right: 15px;
+}
+.shop:hover{
+    background-color: rgb(11, 94, 11);
+    
+}
+@media screen and (max-width: 700px){
+    .container{
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    
+}
